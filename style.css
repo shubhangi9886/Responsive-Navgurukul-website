@@ -1,0 +1,640 @@
+*{
+    padding : 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-container{
+    padding: 0 350px;
+}
+
+.navbar{
+    border-bottom: 1px solid #EAEAEB;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 0;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.link a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    margin-top: 9%;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.link :hover{
+    color: red;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo img{
+    height: 40px;
+    float: left;
+}
+
+.navgurukul-image{
+    width: 100%;
+    height: 400px;
+}
+
+.icone{
+    position: absolute;
+    width: 90px;
+    left: 30px;
+}
+
+.m{
+    float:left;
+}
+
+.information-text{
+    width: 100%;
+    height:auto;
+}
+
+.information-text1{
+    height: 100px;
+    width: 33%;
+    text-align: center;
+    background-color: #f4f4f4;
+} 
+
+.information-text1 p{
+    text-align: center;
+    font-size: 22px;
+    padding-top: 3%;
+}
+
+.information-text2{
+    height: 100px;
+    width: 33%;
+    text-align: center;
+    background-color: #eaeaea;
+} 
+
+.information-text2 p{
+    padding-top: 5%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.information-text3{
+    height: 100px;
+    width: 34%;
+    text-align: center;
+    background-color: #f4f4f4;
+    float: right;
+} 
+
+.information-text3 p{
+    padding-top: 5%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.text-middle{
+    color: black;
+    margin-top: 10%;
+} 
+
+.line{
+    border-top: 2px solid red;
+    width: 4%;
+    margin-left: 48%;
+}
+
+
+.main-div{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.team-member{
+    width:20%;
+    height: 300px;
+    margin-left:5%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.team-member img{
+    position: relative;  
+    left:5%; 
+    top:0px; 
+    border-top-left-radius: 30%;
+    border-bottom-right-radius:30%;  
+} 
+
+.image1:hover{
+    border-radius:55%;
+    border:   3px solid #f05f40;    
+}
+    
+.alumini-linkdin{
+    width:100%;
+    height: 7px;
+    background-color: #f05f40;
+    margin-top:30px;
+}
+
+.id{
+    list-style-type: none;  
+}
+    
+.linkdin-link{
+    text-decoration:none;
+    color:white;
+    font-size: 35px;
+    width: 35px;
+    height: 35px;
+    line-height: 40px;
+}
+
+.alumini-linkdin:hover{
+    height: 60px; 
+}
+
+.team-member1{
+    width:20%;
+    height: 300px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.team-member1 img{
+    position: relative;  
+    left:5%; 
+    top:0px; 
+    border-top-left-radius: 30%;
+    border-bottom-right-radius:30%;  
+} 
+
+.image2:hover{
+    border-radius:55%;
+    border: 3px solid #f05f40;    
+}
+
+.team-member2{
+    width:20%;
+    height: 300px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 15%;   
+}
+
+.team-member2 img{
+    position: relative;  
+    left:5%; 
+    top:0px; 
+    border-top-left-radius: 30%;
+    border-bottom-right-radius:30%;  
+} 
+
+.image3:hover{
+    border-radius:55%;
+    border: 3px solid #f05f40; 
+    
+}
+
+.main-div1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 3%;
+}
+
+.team-member3{
+    width:20%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.team-member3 img{
+    position: relative;  
+    left:5%; 
+    top:0px; 
+    border-top-left-radius: 30%;
+    border-bottom-right-radius:30%;  
+} 
+
+.image4:hover{
+    border-radius:55%;
+    border: 3px solid #f05f40; 
+    
+}
+
+.team-member4{
+    width:20%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.team-member4 img{
+    position: relative;  
+    left:5%; 
+    top:0px; 
+    border-top-left-radius: 30%;
+    border-bottom-right-radius:30%;  
+} 
+    
+.image5:hover{
+    border-radius:55%;
+    border: 3px solid #f05f40;     
+}
+
+.team-member5{
+    width:20%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.team-member5 img{
+    position: relative;  
+    left:5%; 
+    top:0px; 
+    border-top-left-radius: 30%;
+    border-bottom-right-radius:30%;  
+} 
+   
+.image6:hover{
+    border-radius:55%;
+    border: 3px solid #f05f40;  
+}
+
+.main-div2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.team-member6{
+    width:20%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.team-member6 img{
+    position: relative;  
+    left:5%; 
+    top:0px; 
+    border-top-left-radius: 30%;
+    border-bottom-right-radius:30%;  
+} 
+    
+.image7:hover{
+    border-radius:55%;
+    border: 3px solid #f05f40; 
+    
+}
+
+.line1{
+    border-top: 2px solid red;
+    width: 4%;
+    margin-left: 48%;
+    margin-top: 1%;
+}
+
+.container1{
+    width: 100%;
+    height: 300px;
+    margin-top: 2%;
+    display: flex;
+}
+
+.theory-text{
+    width: 35%;
+    height: 281px; 
+    background-color: #f05f40!important;
+    color: white;
+}
+
+.theory-image img{
+    height: 281px;
+}
+
+.heading{
+    font-weight: 100;
+    font-size:28px;
+    color:white;
+    padding-left:45px;
+    padding-top:25px;
+}
+ 
+.paragraph1{
+    font-size: 17px;
+    color: white;
+    padding-left:45px;
+    padding-top:15px;
+    line-height: 25px;
+}
+
+.theory-text1{
+    width: 36%;
+    height: 281px;
+    background-color: #222;
+    color: white;
+}
+
+.heading1{
+    font-weight: 100;
+    font-size:28px;
+    color: white;
+    padding-left:45px;
+    padding-top:25px;
+}
+
+.paragraph2{
+    font-size: 17px;
+    color: white;
+    padding-left:45px;
+    padding-top:15px;
+    line-height: 25px;
+}
+
+.last-text{
+    margin-top: 4%;
+}
+
+.line2{
+    border-top: 2px solid red;
+    width: 4%;
+    margin-left: 48%;
+    margin-top: 1%;
+}
+
+.indian-image{
+    margin-left: 21%;
+    width:70%;
+    height: 100px;
+    display: flex; 
+    margin-top: 2%;
+}
+
+.better-india{
+    width:24%;
+    height:100px;
+    float:left; 
+    margin-left: 8%;   
+}
+
+.logical-indian{
+    margin-left: 4%;
+} 
+
+.quartz-image{
+    margin-left: 41%;
+    margin-top: 2%;
+}
+
+.line3{
+    border-top: 2px solid red;
+    width: 4%;
+    margin-left: 48%;
+    margin-top: 1%;
+}
+
+.supported{
+    font-size: 34px;
+    margin-top: 5%;
+}
+
+.social{
+    display: flex;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+.alpha{
+    margin-left: 2%;
+}
+
+.core{
+    margin-left: 4%;
+}
+
+.last-image{
+    display: flex;
+    margin-left: 38%;
+    margin-top: 3%;
+}
+
+.dumy{
+    margin-left: 5%;
+    height: 60px;
+}
+
+.contact{
+    line-height: 1.4;
+    font-size: 34px;
+    color: #111;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+.line4{
+    border-top: 2px solid red;
+    width: 4%;
+    margin-left: 39%;
+    margin-top: 1%;
+}
+
+.registered{
+    margin-top: 1%;
+    text-align: center!important;
+    float: left;
+    margin-left: 30%;
+}
+
+.facebook-image{
+    width: 80px;
+    height: 85px;
+    border-radius:56%;
+    background-color: rgba(0,0,0,.2);
+    margin-left: 3%;
+    margin-top: -3%;
+  
+}
+
+.facebook-image i{
+    line-height: 80px;
+    font-size: 40px;
+    color: white;
+    margin-left: 35%;
+}
+
+.org{
+    float:left;
+}
+
+.footer{
+    width:100%;
+    height:50px;
+    background-color: #343a40;
+    margin-top: 8%;
+}
+
+.nav-org{
+    width:30%;
+    height:30px;
+    margin-left:45%;
+    padding-top:1%;
+    color: #ccc;
+}
+
+@media only screen and (max-width: 1200px){
+    .m{
+        float:none;
+        width: 100%;
+        height: 150px;
+    }
+    .information-text1 p{
+        padding: 5%;
+        font-size: 35px;
+    }
+    .information-text2 p{
+        padding: 5%;
+        font-size: 35px;
+    }
+    .information-text3 p{
+        padding: 5%;
+        font-size: 35px;
+    }
+    .pic{
+        width: 60%;
+        margin-left: 19%;
+        margin-top: 10%;
+        font-size: 40px;
+    }
+    .main-div1{
+        margin-top: 80%;
+    }
+    .team-member1{
+        margin-top: 50%;
+    }
+    .team-member2{
+        margin-top: 55%;
+    }
+    .pic1{
+        width: 60%;
+        margin-left: 19%;
+        margin-top: 40%;
+        font-size: 35px;
+    }
+    .pic2{
+        width: 60%;
+        margin-left: 19%;
+        margin-top: 285%;
+        font-size: 35px;
+    } 
+    .team-member3{
+        margin-top: 130%;
+    }
+    .team-member4{
+        margin-top: 43%;
+    }
+    .team-member5{
+        margin-top: 35%;
+    }
+    .main-div, .main-div1, .main-div2{
+        flex-direction: column;
+    }
+    .text-last{
+        margin-top: 320%;    
+    }
+    .container1{
+        margin-top: 10%;
+        flex-direction: column;
+    }
+    .theory-text{
+        width: 100%;
+        padding-bottom: 310px;
+    }
+    .theory-text p{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .theory-image img{
+        width: 100%;
+        height: 681px;
+        margin-top: 5%;
+    }
+    .theory-text1{
+        width: 100%;
+        margin-top: 1%;
+        padding-bottom:360px;
+    }
+    .theory-text1 p{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .last-text{
+        margin-top: 190%;
+    }
+    .indian-image{
+        margin-top: 6%;
+        flex-direction: column;
+    }
+    .better-india{
+        margin-left: 30%;
+    }
+    .times-india{
+        margin-left: 27%;
+        margin-top: 5%;
+    }
+    .logical-indian{
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+    .quartz-image{
+        margin-top: 30%;
+        margin-left: 34%;
+    }
+    .supported{
+        margin-left: 10%;
+    }
+    .social{
+        margin-top: 3%;
+        flex-direction: column;
+    }
+    .accenture{
+        margin-top: 5%;
+        margin-left: 15%;
+    }
+    .alpha{
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+    .core{
+        margin-top: 5%;
+        margin-left: 15%;
+    }
+    .last-image{
+        flex-direction: column;
+        margin-left: 45%;
+    }
+} 
+
